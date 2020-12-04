@@ -1,0 +1,41 @@
+λ git checkout dcb84e7
+Note: switching to 'dcb84e7'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at dcb84e7 Añadida respuesta ejercicio 1.4
+
+λ git tag DEBARRIO-PLACER-paso5
+
+λ git checkout main
+Previous HEAD position was dcb84e7 Añadida respuesta ejercicio 1.4
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+λ git merge DEBARRIO-PLACER
+Updating b79c7ba..35584e3
+Fast-forward
+ respuestas/ejercicio1.4.txt | 14 ++++++++++++++
+ respuestas/ejercicio1.6.txt |  4 ++++
+ 2 files changed, 18 insertions(+)
+ create mode 100644 respuestas/ejercicio1.4.txt
+ create mode 100644 respuestas/ejercicio1.6.txt
+
+λ git log --oneline
+35584e3 (HEAD -> main, DEBARRIO-PLACER) Añadida respuesta ejercicio 1.6
+dcb84e7 (tag: DEBARRIO-PLACER-paso5) Añadida respuesta ejercicio 1.4
+b79c7ba (origin/main, origin/HEAD) Update .gitignore
+7b39baf Initial commit
