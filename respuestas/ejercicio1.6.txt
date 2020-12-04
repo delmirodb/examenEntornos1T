@@ -1,0 +1,4 @@
+λ git log --graph --oneline --decorate --all
+* dcb84e7 (HEAD -> DEBARRIO-PLACER) Añadida respuesta ejercicio 1.4
+* b79c7ba (origin/main, origin/HEAD, main) Update .gitignore
+* 7b39baf Initial commit
